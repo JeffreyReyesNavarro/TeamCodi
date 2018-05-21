@@ -1,7 +1,7 @@
 
 
 #imagedisplay {
-    background: url("images/tennant-ck-naaja.jpg") center/cover;
+    background: url("../images/tennant-ck-naaja.jpg") center/cover;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -52,7 +52,7 @@
 }
 
 .main-content__img-container__card1 {
-    background: url("images/abo_kangaroo.jpg")center/cover ;
+    background: url("../images/abo_kangaroo.jpg")center/cover ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -63,7 +63,7 @@
 }
 
 .main-content__img-container__card2 {
-    background: url("images/abo_art.jpg")center/cover ;
+    background: url("../images/abo_art.jpg")center/cover ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -74,7 +74,7 @@
 }
 
 .main-content__img-container__card3 {
-    background: url("images/karlangu.jpg")center/cover ;
+    background: url("../images/karlangu.jpg")center/cover ;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
