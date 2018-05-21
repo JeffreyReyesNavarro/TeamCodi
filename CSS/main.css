@@ -120,6 +120,40 @@
     outline: none;
 }
 
+@media(min-width:768px){
+    #imagedisplay {
+    height: 250px;
+}
+
+.main-content__img-container__card1,
+.main-content__img-container__card2,
+.main-content__img-container__card3 {    
+   background-size: 500px;
+}
+
+.imagedisplay__title {
+    font-size: 30px;
+}
+
+.main-content__buttons {
+    display: none;
+}
+
+.main-content__description {
+    text-align: left;
+    display: block;
+}
+
+
+
+}
+
+
+
+
+
+
+
 @media (min-width:1024px) {
 
 #imagedisplay {
@@ -177,6 +211,7 @@
 .main-content__buttons {
     display: none;
 }
+
 
 }
 
