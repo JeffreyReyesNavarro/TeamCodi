@@ -78,9 +78,6 @@ body {
     display: none;
 }
 
-.brand {
-    padding-left: 200px;
-}
 
 .main-nav__items {
     margin: 0;
@@ -233,9 +230,6 @@ body {
 
 @media(min-width:360px) {
 
-.brand {
-    padding-left: 150px;
-}
 
 @media(min-width:425px) {
 
