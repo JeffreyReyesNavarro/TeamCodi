@@ -17,5 +17,6 @@ section{
 }
 
 .legalservice-content__header {
+    margin-top:auto;
     padding: 10px;
 }
