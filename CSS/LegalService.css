@@ -15,3 +15,7 @@ footer{
 section{
     margin-top:50px;
 }
+
+.legalservice-content__header {
+    padding: 10px;
+}
