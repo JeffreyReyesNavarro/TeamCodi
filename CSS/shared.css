@@ -1,12 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
+
+/* FROM TOP OF THE PAGE */
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
@@ -21,6 +23,9 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
+
+
+/* THIS IS FOR MOBILE TOGGLE BUTTON */
 
 .main-header {
     width: 100%;
@@ -59,10 +64,11 @@ body {
     margin: 0.4rem 0;
 }
 
+/* BRAND LOGO */
+
 .main-header__brand {
     color: #ececec;
     text-decoration: none;
-    /* font-weight: bold; */
     font-size: 22px;
     height: 22px;
     display: inline-block;
@@ -73,6 +79,8 @@ body {
     position: relative;
     top: 2px;
 }
+
+/* NAVIGATION */
 
 .main-nav {
     display: none;
@@ -131,6 +139,52 @@ body {
     border-bottom: 3px solid #659dbd
 }
 
+/* MOBILE NAVIGATION */
+
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: #17252a;
+  width: 250px;
+  height: 700px;
+}
+
+.mobile-nav__img {
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav__img img {
+    height: 80px;
+    width: 250px;
+}
+
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0;
+  text-align: left;
+}
+
+.mobile-nav__item {
+  margin: 16px 0;
+  border-bottom: 2px solid white;
+}
+
+.mobile-nav__item a {
+  font-size: 24px;
+}
+
+/* FOOTER */
+
 .main-footer {
     background: #373737;
     padding: 10px;
@@ -175,7 +229,7 @@ body {
     padding: 0;
 }
 
-    .Blog {
+.Blog {
         background-color:rgba(251, 143, 61, 0.3);
     }
 
@@ -199,75 +253,8 @@ body {
         background-color:rgba(187, 0, 0,0.3);
     }
 
-<!--------------hover-->
 
-
-.Blog:hover{
-        background-color: #D17233;
-    }
-
-
-    .Facebook:hover{
-        background-color:#3b5998;
-    }
-
-    .Google:hover{
-        background-color: #d34836;
-    }
-    .RSS:hover{
-        background-color: #FC8A44;
-        opacity: 0.7;
-    }
-    .Twitter:hover{
-        background-color: #0084b4;
-    }
-    .YouTube:hover{
-        background-color: #922320;
-    }
-<!------------------->
-
-.mobile-nav {
-  display: none;
-  position: fixed;
-  z-index: 101;
-  top: 0;
-  left: 0;
-  background: #17252a;
-  width: 250px;
-  height: 700px;
-}
-
-.mobile-nav__img {
-    padding: 0;
-    margin: 0;
-}
-
-.mobile-nav__img img {
-    height: 80px;
-    width: 250px;
-}
-
-.mobile-nav__items {
-  width: 90%;
-  height: 100%;
-  list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 0;
-  text-align: left;
-}
-
-.mobile-nav__item {
-  margin: 16px 0;
-  border-bottom: 2px solid white;
-}
-
-.mobile-nav__item a {
-  font-size: 24px;
-}
-
+/* TABLET VIEW */
 @media(min-width:768px){
 
 .toggle-button {
@@ -319,6 +306,8 @@ body {
 
 }
 
+
+/* DESKTOP VIEW */
 @media (min-width: 1024px) {
 
 .toggle-button {
