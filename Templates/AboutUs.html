@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8" />
@@ -11,24 +11,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/shared.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/AboutUs.css" />
-    <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/main.css" />
+<!--    <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">-->
 
 </head>
 
 
 <body>
-    <!-- BACKGROUND IMAGE -->
     <div class="background"></div>
-    <!-- BLACK PAGE BESIDE THE MOBILE NAV -->
     <div class="backdrop"></div>
-    <!-- TOGGLE BUTTON -->
     <header class="main-header">
         <button class="toggle-button">
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
         </button>
-        <!-- SITE BRAND -->
         <div class="brand">
             <a href="../index.html" class="main-header__brand">
                 <img src="../images/naaja-icon.png" alt="NAAJA"> NAAJA
@@ -36,8 +33,7 @@
         </div>
 
         <!--NAVIGATION-->
-
-        <!-- DESKTOP NAV -->
+        <!-- DESKTOP NAV -------------------------------------->
         <nav class="main-nav">
             <ul class="main-nav__items">
                 <li class="main-nav__item">
@@ -55,12 +51,8 @@
             </ul>
         </nav>
     </header>
-
-    <!-- MOBILE NAV -->
+    <!-- MOBILE NAV ------------------------------------------------->
     <nav class="mobile-nav">
-        <div class="mobile-nav__img">
-            <img src="../images/NAAJA.png" alt="naaja">
-        </div>
         <ul class="mobile-nav__items">
             <li class="mobile-nav__item">
                 <a href="../Templates/LegalService.html">Legal Service</a>
@@ -78,13 +70,20 @@
     </nav>
 
 
-    <main id="aboutus-content">
+   <section class="imagedisplay">
+        <div>
+            <h1 class="imagedisplay__title">
+                North Australian Aboriginal Justice Agency
+            </h1>
+        </div>
+    </section>
+<!--    </main>-->
+        <main id="aboutus-content">
+        <h1 class="content__header">About Us</h1>
         <!-- THIS IS WHERE CONTENTS ADDED FOR THE OTHER PAGES INSIDE MAIN -->
         <section>
             <div class="flex-container__Employees">
-                <div class="content-titles__div">
-                    <h1 class="content-title">ABOUT US</h1>
-                </div>
+
                 <div class="flex-container-employee__info_box">
                     <div class="flex-container-employee__info_img">
                         <img src="../images/Priscilla-Atkins-01-222x300.jpg" alt="Priscilla Atkins" class="content-employee__image">
@@ -171,12 +170,17 @@
         </section>
     </main>
 
-
     <!--FOOTER-->
     <footer class="main-footer">
         <div class="flex-main-footer__sections">
-    
-            <!-- FOOTER CALL US -->
+            <div class="flex-main-footer__section">
+                <section class="main-footer__section sec-one">
+                    <h1 class="main-footer__title">North Australian Aboriginal Justice Agency</h1>
+                    <p class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil
+                        Law services to Aboriginal people and their families in the Northern Territory.</p>
+                </section>
+            </div>
+
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-two">
                     <h1 class="main-footer__title">Call Us</h1>
@@ -190,8 +194,7 @@
                     </ul>
                 </section>
             </div>
-    
-            <!-- FOOTER SOCIAL LINKS -->
+
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-three">
                     <h1 class="main-footer__title">Connect</h1>
@@ -216,17 +219,9 @@
                         </li>
                     </ul>
                 </section>
-            </div>
-
-            <!-- FOOTER SITE DESCRIPTION -->
-            <div class="flex-main-footer__section">
-                <section class="main-footer__section sec-one">
-                    <h1 class="main-footer__title">North Australian Aboriginal Justice Agency</h1>
-                    <p class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil
-                        Law services to Aboriginal people and their families in the Northern Territory.</p>
                 </section>
             </div>
-    
+
         </div>
     </footer>
 
