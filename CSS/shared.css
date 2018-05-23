@@ -1,16 +1,70 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-
-/* FROM TOP OF THE PAGE */
-
 * {
     box-sizing: border-box;
 }
 
+.imagedisplay__title {
+
+}
+
+
+.imagedisplay__title{
+    background-color: rgba(122, 12, 1, 0.6);
+    padding:5px;
+    font-family: 'Roboto Slab', serif;
+    padding: 0px;
+    margin: 12px;
+    color: #ececec;
+    font-weight: bold;
+    font-size: 25px;
+    bottom: 0;
+    position: absolute; 
+}
+
+.background {
+    background: url("../images/indigenous_art.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.column-3 img{
+    max-width:100%;
+}
+
+.row{
+    background: rgba(221, 216, 209, 0.9);
+    border: 1px solid #AAABB8;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
+    clear:both;
+    margin-bottom: 20px;
+    padding:10px;
+}
+
+.content__header{
+    margin-left:30px;
+    color: rgb(31, 27, 27);
+    font-weight: bold;
+    background: rgba(242, 238, 231, 0.80);
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    color: #101010;
+    font-weight: bold;
+    padding-left: 40px;
+    margin: 0;
+    border-bottom: 1px solid #AAABB8;
+}
+
 body {
+    /* font-family: 'Montserrat', sans-serif; */
     font-family: 'Roboto Slab', serif;
     margin: 0;
+
     background-color: #e1e1e1;
 }
 
@@ -24,9 +78,6 @@ body {
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
 }
-
-
-/* THIS IS FOR MOBILE TOGGLE BUTTON */
 
 .main-header {
     width: 100%;
@@ -65,11 +116,10 @@ body {
     margin: 0.4rem 0;
 }
 
-/* BRAND LOGO */
-
 .main-header__brand {
     color: #ececec;
     text-decoration: none;
+    /* font-weight: bold; */
     font-size: 22px;
     height: 22px;
     display: inline-block;
@@ -80,8 +130,6 @@ body {
     position: relative;
     top: 2px;
 }
-
-/* NAVIGATION */
 
 .main-nav {
     display: none;
@@ -140,55 +188,11 @@ body {
     border-bottom: 3px solid #659dbd
 }
 
-/* MOBILE NAVIGATION */
-
-.mobile-nav {
-  display: none;
-  position: fixed;
-  z-index: 101;
-  top: 0;
-  left: 0;
-  background: #17252a;
-  width: 250px;
-  height: 700px;
-}
-
-.mobile-nav__img {
-    padding: 0;
-    margin: 0;
-}
-
-.mobile-nav__img img {
-    height: 80px;
-    width: 250px;
-}
-
-.mobile-nav__items {
-  width: 90%;
-  height: 100%;
-  list-style: none;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding: 0;
-  text-align: left;
-}
-
-.mobile-nav__item {
-  margin: 16px 0;
-  border-bottom: 2px solid white;
-}
-
-.mobile-nav__item a {
-  font-size: 24px;
-}
-
-/* FOOTER */
-
 .main-footer {
     background: #373737;
     padding: 10px;
+    margin-top:auto;
+    
 }
 
 .main-footer__title {
@@ -230,7 +234,7 @@ body {
     padding: 0;
 }
 
-.Blog {
+    .Blog {
         background-color:rgba(251, 143, 61, 0.3);
     }
 
@@ -254,9 +258,90 @@ body {
         background-color:rgba(187, 0, 0,0.3);
     }
 
+.mobile-nav {
+  display: none;
+  position: fixed;
+  z-index: 101;
+  top: 0;
+  left: 0;
+  background: #17252a;
+  width: 250px;
+  height: 700px;
+}
 
-/* TABLET VIEW */
+.mobile-nav__items {
+  width: 90%;
+  height: 100%;
+  list-style: none;
+  margin: 10% auto;
+  padding: 0;
+  text-align: left;
+}
+
+.mobile-nav__item {
+  margin: 16px 0;
+  border-bottom: 2px solid white;
+}
+
+.mobile-nav__item a {
+  font-size: 24px;
+}
+
+.contentMoreLink{
+    font-weight: bold;
+    font-size: 1.1em;
+    color:#7A1501;
+}
+
+.contentMoreLink:hover{
+    background-color:#7A1501;
+    color:#fff;
+}
+
+.clearfix{
+    clear:both;
+    height: 1px;
+}
+
+
 @media(min-width:768px){
+
+/* Fluid Layout */
+.row{
+    width:100%;
+}
+
+.column-3{
+    width:25%;
+}
+
+.column-6{
+    width:50%;
+}
+
+.column-3 img{
+    max-width:100%;
+}
+
+.column-9{
+    width:75%;
+}
+
+
+.column-right{
+    padding-left: 10px;
+    float:right;
+}
+
+.column-left{
+    padding-right: 10px;
+    float:left;
+}
+
+footer{
+    clear:both;
+}
+
 
 .toggle-button {
     display: none;
@@ -273,21 +358,29 @@ body {
     display: flex;
     /* flex-wrap: wrap; */
     flex-direction: row;
-    width: 90%;
+    width: 100%;
     padding: 0;
 }
+/*
+    .sec-one{
+        min-width: 33%;
+    }
+*/
 
 .sec-three__lists li {
     padding: 10;
     margin: 2px;
     cursor: pointer;
     display: inline-block;
-    width: 30%;
+    width: 33%;
 }
 
 .flex-main-footer__section {
     font-size: 10px;
     flex-direction: column;
+      font-size: 16px;
+    font-family: sans-serif;
+    width: 33%;
 }
 
 .main-footer__title {
@@ -307,8 +400,6 @@ body {
 
 }
 
-
-/* DESKTOP VIEW */
 @media (min-width: 1024px) {
 
 .toggle-button {
@@ -327,8 +418,10 @@ body {
 .flex-main-footer__sections {
     display: flex;
     flex-direction: row;
-    width: 80%;
+    width: 100%;
     padding: 0;
+    margin-top:auto;
+    
 }
 
 .main-footer__lists {
@@ -336,12 +429,14 @@ body {
     margin: 0;
     width: 300px;
     text-align: left;
+
     
 }
 
 .main-footer__list3 {
+    
     display: inline-block;
-    width: 30%;
+    
     text-align: center;
 }
 
@@ -349,6 +444,7 @@ body {
     padding: 10;
     margin: 2px;
     cursor: pointer;
+  
 }
 
 .main-footer__title{
@@ -359,4 +455,38 @@ body {
     padding-left: 40px;
     padding-right: 40px;
 }
+/*    On hover---------------------------------*/
+    .Blog:hover{
+        background-color: #D17233;
+    }
+        
+    
+    .Facebook:hover{
+        background-color:#3b5998;
+    }
+    
+    .Google:hover{
+        background-color: #d34836;
+    }
+    .RSS:hover{
+        background-color: #FC8A44;
+        opacity: 0.7;
+    }
+    .Twitter:hover{
+        background-color: #0084b4;
+    }
+    .YouTube:hover{
+        background-color: #922320;
+    }
+
+.imagedisplay {
+    background: url("../images/tennant-ck-naaja.jpg") center/cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin: 0;
+    width: 100%;
+    height: 200px;
+    padding: 16px;
 }
+
