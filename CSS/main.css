@@ -1,7 +1,8 @@
 
 
-#imagedisplay {
+.imagedisplay {
     background: url("../images/tennant-ck-naaja.jpg") center/cover;
+/*    background: url(http://www.naaja.org.au/wp-content/uploads/2017/02/NAAJA-latest-logo1.png);*/
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -11,6 +12,7 @@
     padding: 16px;
 }
 
+/*
 .imagedisplay__title {
     font-family: 'Roboto Slab', serif;
     padding: 0px;
@@ -21,6 +23,7 @@
     bottom: 0;
     position: absolute; 
 }
+*/
 
 .main-content {
     margin: 20px 5px;
@@ -145,8 +148,6 @@
 }
 
 
-
-}
 
 
 
