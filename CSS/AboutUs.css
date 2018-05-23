@@ -39,6 +39,8 @@
 
 #aboutus-content p {
     text-align: justify;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .flex-container-employee__info_box {
