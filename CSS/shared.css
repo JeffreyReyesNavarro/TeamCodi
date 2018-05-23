@@ -199,6 +199,33 @@ body {
         background-color:rgba(187, 0, 0,0.3);
     }
 
+<!--------------hover-->
+
+
+.Blog:hover{
+        background-color: #D17233;
+    }
+
+
+    .Facebook:hover{
+        background-color:#3b5998;
+    }
+
+    .Google:hover{
+        background-color: #d34836;
+    }
+    .RSS:hover{
+        background-color: #FC8A44;
+        opacity: 0.7;
+    }
+    .Twitter:hover{
+        background-color: #0084b4;
+    }
+    .YouTube:hover{
+        background-color: #922320;
+    }
+<!------------------->
+
 .mobile-nav {
   display: none;
   position: fixed;
