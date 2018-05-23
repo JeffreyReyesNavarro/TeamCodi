@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8" />
@@ -10,23 +10,22 @@
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/shared.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/main.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="../CSS/LegalService.css" />
-    <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+    <!-- <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css"> -->
 
 </head>
 
 
 <body>
-    <!-- BLACK PAGE BESIDE THE MOBILE NAV -->
+    <div class="background"></div>
     <div class="backdrop"></div>
     <header class="main-header">
-        <!-- TOGGLE BUTTON -->
         <button class="toggle-button">
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
         </button>
-        <!-- SITE BRAND -->
         <div class="brand">
             <a href="../index.html" class="main-header__brand">
                 <img src="../images/naaja-icon.png" alt="NAAJA"> NAAJA
@@ -34,7 +33,6 @@
         </div>
 
         <!--NAVIGATION-->
-
         <!-- DESKTOP NAV -->
         <nav class="main-nav">
             <ul class="main-nav__items">
@@ -55,9 +53,6 @@
     </header>
     <!-- MOBILE NAV -->
     <nav class="mobile-nav">
-        <div class="mobile-nav__img">
-            <img src="../images/NAAJA.png" alt="naaja">
-        </div>
         <ul class="mobile-nav__items">
             <li class="mobile-nav__item">
                 <a href="LegalService.html" class="mobile-nav__item--cta">Legal Service</a>
@@ -75,17 +70,24 @@
     </nav>
 
 
-    <main id="legalservice-content">
-        <!-- THIS IS WHERE CONTENTS ADDED FOR THE OTHER PAGES INSIDE MAIN -->
-        <section>
-            <div class="legalservice-content__header">
-                
+        <section class="imagedisplay">
+            <div>
+                <h1 class="imagedisplay__title">
+                    North Australian Aboriginal Justice Agency
+                </h1>
+            </div>
+        </section>
+
+<section>
+        <h1 class="content__header">Legal Services</h1>
+        <main id="legalservice-content" class="legalservice-content">
+
+        <div class="row">
+            <div class="column-6 column-left">
                 <h2 class="legalservice-content__header">CRIMINAL LAW</h2>
-                
-                <p>NAAJA has the largest criminal law practice in the Northern Territory with offices in Darwin, Katherine, Tennant Creek and
-                    Alice Springs. NAAJA’s criminal law section consists of dedicated and passionate lawyers and highly professional Aboriginal
-                    paralegal staff.</p>
-                
+ 
+                <p>NAAJA has the largest criminal law practice in the Northern Territory with offices in Darwin, Katherine, Tennant Creek and Alice Springs. NAAJA’s criminal law section consists of dedicated and passionate lawyers and highly professional Aboriginal paralegal staff.</p>
+
                 <h3 class="legalservice-content__header">OUR CRIMINAL LAW PRACTICE REPRESENTS CLIENTS</h3>
                 <ul>
                     <li>On criminal charges in the Youth Justice Court, Court of Summary Jurisdiction (Local Court), and Supreme Court;</li>
@@ -95,17 +97,15 @@
                 
                 <h3 class="legalservice-content__header">NAAJA ATTENDS BUSH COURTS IN:</h3>
                 <ul>
-                    <li>Darwin Region – Milikapiti (Snake Bay), Nguiu, Maningrida, Oenpelli (Gumbalanya), Jabiru, Daly River and Wadeye (Port
-                        Keats).</li>
+                    <li>Darwin Region – Milikapiti (Snake Bay), Nguiu, Maningrida, Oenpelli (Gumbalanya), Jabiru, Daly River and Wadeye (Port Keats).</li>
                     <li>Katherine Region – Barunga, Ngukurr, Timber Creek, Borroloola, Kalgarindji and Lajamanu.</li>
-                    <li>Central Australia – Tennant Creek, Hermannsburg, Papunya, Yuendumu, Mutitjulu, Kintore, Ali-Curung, Docker River, Elliot</li>
+                    <li>Central Australia – Tennant Creek, Hermannsburg, Papunya, Yuendumu, Mutitjulu, Kintore, Ali-Curung, Docker River, Elliot</li> 
                 </ul>
-                
+
                 <h3 class="legalservice-content__header">WE ALSO PROVIDE:</h3>
                 <ul>
                     <li>Legal advice over the phone or face to face about criminal charges or police investigations; and</li>
-                    <li>24 hour legal advice when people are arrested or taken into police custody. If you get picked up by police you can ask
-                        them for the after-hours telephone number and speak to a solicitor.</li>
+                    <li>24 hour legal advice when people are arrested or taken into police custody. If you get picked up by police you can ask them for the after-hours telephone number and speak to a solicitor.</li>
                 </ul>
                 
                 <h3 class="legalservice-content__header">NAAJA ALSO PROVIDES SPECIALISED SERVICES FOR VULNERABLE PERSONS INCLUDING:</h3>
@@ -121,15 +121,68 @@
                     <li>Advocate for change to laws, programs, policies that affect Aboriginal people in the criminal justice system.</li>
                 </ul>
             </div>
-        </section>
-    </main>
+            <div class="column-6 column-right">
+                <!-- CIVIL LAW CONTENT HERE----------------------------------------------------------------- -->
+                <h2 class="legalservice-content__header">CIVIL LAW</h2>
+ 
+                <p>Civil laws are used to resolve legal disputes between two or more parties. A party in a civil case could be a person, an organisation or company or even a government department. Civil laws are usually used to solve disputes where one party thinks someone else has caused them damage or interfered with their rights in some way. Examples of civil laws are: different types of compensation, discrimination, family law, complaints against police or other government organisations, adult guardianship and child protection.</p>
 
+                <h3 class="legalservice-content__header">NAAJA CIVIL LAW SOLICITORS PROVIDE ADVICE ON ANY AREA OF CIVIL LAW AND REPRESENTATION IN AREAS SUCH AS:</h3>
+                <ul>
+                    <li>Problems with government services and departments (e.g. Housing, Centrelink, police and prison officers,)</li>
+                    <li>Child Protection</li>
+                    <li>Adult Gurdainship</li>
+                    <li>Consumer Problem(credit, debit, motor vehicle sales and repairs)</li>
+                    <li>Descrimination and human rights</li>
+                    <li>Compensation claims including against police (eg false imprisonment) and other government departments, and also Motor Accident and Victims of Crime Compensation</li>
+                </ul>
+                
+                <h3 class="legalservice-content__header">CIVIL CLINICS</h3>
+                <p>Naaja holds civil advice clinics in darwin, katherine and Alice Springs</p>
+                <ul>
+                    <li>From Darwin – Milikapiti, Wurrumiyanga (Nguiu), Maningrida, Ramingining, Milingimbi, Nhulunbuy, Galiwinku, Gapuwiak, Groote Eylandt, Gunbalunya, Wadeye and Borroloola;</li>
+                    <li>From Katherine – Barunga, Ngukurr, Timber Creek, Kalkarindji, Lajamanu, Yarralin, Bulla, Beswick, Bulman, Urapunga and Numbulwa</li>
+                    <li>•	From Central Australia – TBC</li> 
+                </ul>
+
+                <h3 class="legalservice-content__header">WE ALSO PROVIDE:</h3>
+                <ul>
+                    <li>Legal advice over the phone or face to face about criminal charges or police investigations; and</li>
+                    <li>24 hour legal advice when people are arrested or taken into police custody. If you get picked up by police you can ask them for the after-hours telephone number and speak to a solicitor.</li>
+                </ul>
+                
+                <h3 class="legalservice-content__header">NAAJA ALSO PROVIDES SPECIALISED SERVICES FOR VULNERABLE PERSONS INCLUDING:</h3>
+                <ul>
+                    <li>Young people</li>
+                    <li>Defendants with mental health issues and other disabilities</li>
+                </ul>
+                
+                <h3 class="legalservice-content__header">WE STRIVE TO:</h3>
+                <ul>
+                    <li>Provide a culturally relevant legal service to Aboriginal people of the Northern Territory;</li>
+                    <li>Assist clients with interpreters in their language; and</li>
+                    <li>Advocate for change to laws, programs, policies that affect Aboriginal people in the criminal justice system.</li>
+                </ul>
+                <!-----------------------------------------Content-right---------------------------->
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+
+    </main>
+    </section>
 
     <!--FOOTER-->
     <footer class="main-footer">
         <div class="flex-main-footer__sections">
-    
-            <!-- FOOTER CALL US -->
+            <div class="flex-main-footer__section">
+                <section class="main-footer__section sec-one">
+                    <h1 class="main-footer__title">North Australian Aboriginal Justice Agency</h1>
+                    <p font-size="15px" class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil
+                        Law services to Aboriginal people and their families in the Northern Territory.</p>
+                </section>
+            </div>
+
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-two">
                     <h1 class="main-footer__title">Call Us</h1>
@@ -143,8 +196,7 @@
                     </ul>
                 </section>
             </div>
-    
-            <!-- FOOTER SOCIAL LINKS -->
+
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-three">
                     <h1 class="main-footer__title">Connect</h1>
@@ -168,18 +220,10 @@
                             <a href="#">YouTube</a>
                         </li>
                     </ul>
+                
                 </section>
             </div>
 
-            <!-- FOOTER SITE DESCRIPTION -->
-            <div class="flex-main-footer__section">
-                <section class="main-footer__section sec-one">
-                    <h1 class="main-footer__title">North Australian Aboriginal Justice Agency</h1>
-                    <p class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil
-                        Law services to Aboriginal people and their families in the Northern Territory.</p>
-                </section>
-            </div>
-    
         </div>
     </footer>
 
