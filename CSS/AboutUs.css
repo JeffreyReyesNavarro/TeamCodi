@@ -1,167 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-.content-title,
-.content-board-of-directors {
-    color: rgb(31, 27, 27);
+* {
+    font-family: 'Roboto Slab', serif;
+   
+}
+
+.background {
+    background: url("../images/indigenous_art.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.10;
+}
+
+#getinvolved-content {
+    padding: 30px 10px;
+    margin: 5px;
+}
+
+.getinvolved__title h1 {
+    text-align: center;
     font-weight: bold;
 }
 
-.content-titles__div {
-    background: rgba(242, 238, 231, 0.80);
-    padding: 0;
-    margin: 0;
-    border-radius: 20px;
+.getinvolved_item1 h2 {
+    color: #7D1301;
+}
+
+.getinvolved_img {
+    height: 250px;
+    width: 330px;
 }
 
 
-.content-title {
-    font-size: 40px;
-    color: #151313;
-    font-weight: bold;
-    padding: 0;
-    margin: 0;
-    border-bottom: 1px solid gray;
-}
+@media(min-width:768px) {
 
-#aboutus-content {
-    margin-bottom: 30px;
-}
+.background {
+    background: url("../images/indigenous_art.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}    
 
-#aboutus-content p {
-    text-align: justify;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
-.content-board-of-directors {
-    text-align: center;
-    padding: 10px;
-}
-.flex-container__Employees {
+.getinvolved_container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    text-align: center;
-}
-
-.content-board-of-directors {
-    font-size: 35px;
-    color: #151313;
-    padding: 0;
-    margin: 0;
-}
-
-.content-employee__image {
-    height: 180px;
-    width: 150px;
-    border-radius: 30px;
-}
-
-.content-employee__name {
-    font-size: 30px;
-    color: #151313;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-.content-employee__position {
-    font-size: 20px;
-    color: #151313;
-    padding: 0;
-    margin: 0;
-    text-align: center;
-}
-
-
-
-
-@media(min-width:768px){
-
-.content-title,
-.content-board-of-directors {
-    color: rgb(31, 27, 27);
-    font-weight: bold;
-}
-
-.content-titles__div {
-    background: rgba(242, 238, 231, 0.80);
-    padding: 0;
-    margin: 0;
-    border-radius: 50px;
-}
-
-.flex-container-employee__info_box {
-    background: rgba(221, 216, 209, 0.9);
-}
-
-.flex-container__Employees {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    padding: 20px;
-    align-items: flex-start;
-}
-
-
-.flex-container-employee__info_box {
-    margin-bottom: 20px;
-    display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    width: 720px;
-    height: 300px;
-    border: 1px solid #AAABB8;
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
-.flex-container-employee__info {
-    width: 250px;
-}
-
-.flex-container-employee__report {
-    margin: 0 40px;
-}
-
-.flex-container-employee__report p {
-    padding: 5px;
+.getinvolved_item1 {
+    width: 350px;
     margin: 0;
-    width: 420px;
 }
 
-.content-board-of-directors {
-    align-content: center;
-}
-
-}
-
-
-@media (min-width: 1024px) {
-
-.content-title,
-.content-board-of-directors {
-    color: rgb(31, 27, 27);
-    font-weight: bold;
-}
-
-.content-titles__div {
-    background: rgba(242, 238, 231, 0.80);
-    padding: 0;
-    margin: 0;
-    border-radius: 50px;
-}
-
-.flex-container-employee__info_box {
-    background: rgba(221, 216, 209, 0.9);
-}
-
-.flex-container__Employees {
+.getinvolved_img_container {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    height: 280px;
+    width: 370px;
+    margin: 50px 5px;
+}
+
+.getinvolved_img__title {
+    font-size: 10px;
+    text-align: center;
+    font-weight: normal;
+    padding: 0;
+}
+
+.getinvolved_img {
+    height: 220px;
+    width: 280px;   
+    padding: 0;
+    margin: 0 50px;
+}
+
+.getinvolved_item2 {
+    width: 800px;
+}
+
+.getinvoled-eof {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 5px;
+    margin: 10px 5px;
+}
+
+.getinvoled-eof__title{
+    width: 30px;
+}
+}
+
+
+@media (min-width: 1366px) {
+
+.background {
+    background: url("../images/indigenous_art.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.15;
+}
+
+.getinvolved__title h1 {
+    font-size: 30px;
+}
+
+.getinvolved_item1 {
+    width: 60%;
+    margin: 0;
+}
+
+.getinvolved_item2 {
+    width: 90%;
+    margin: 0;
+}
+
+.getinvolved_img__title {
+    padding: 0;
+    margin: 0;
+}
+
+.getinvolved_img_container {
+    width: 480px;
+    margin: 10px 5px;
+}
+
+.getinvolved_img {
+    width: 400px;   
+    padding: 0;
+}
+
+.getinvolved-eof__title{
+    width: 200px;
+    margin: 20px;
 }
 
 }
