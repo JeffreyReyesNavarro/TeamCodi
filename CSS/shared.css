@@ -274,6 +274,17 @@ body {
   height: 700px;
 }
 
+
+.mobile-nav__img {
+    padding: 0;
+    margin: 0;
+}
+
+.mobile-nav__img img {
+    height: 80px;
+    width: 250px;
+}
+
 .mobile-nav__items {
   width: 90%;
   height: 100%;
