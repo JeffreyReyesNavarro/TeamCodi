@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="utf-8" />
@@ -11,22 +11,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/shared.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="CSS/main.css" />
-    <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css">
+    <!-- <link type="text/css" rel="stylesheet" href="path-to-fontawesome/font-awesome.css"> -->
 
 </head>
 
 
 <body>
-     <!-- BLACK PAGE BESIDE THE MOBILE NAV -->
+    <div class="background"></div>
     <div class="backdrop"></div>
     <header class="main-header">
-        <!-- TOGGLE BUTTON -->
         <button class="toggle-button">
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
         </button>
-        <!-- SITE BRAND -->
         <div class="brand">
             <a href="index.html" class="main-header__brand">
                 <img src="images/naaja-icon.png" alt="NAAJA"> NAAJA
@@ -34,7 +32,6 @@
         </div>
 
         <!--NAVIGATION-->
-
         <!-- DESKTOP NAV -->
         <nav class="main-nav">
             <ul class="main-nav__items">
@@ -53,12 +50,8 @@
             </ul>
         </nav>
     </header>
-
     <!-- MOBILE NAV -->
     <nav class="mobile-nav">
-        <div class="mobile-nav__img">
-            <img src="images/NAAJA.png" alt="naaja">
-        </div>
         <ul class="mobile-nav__items">
             <li class="mobile-nav__item">
                 <a href="Templates/LegalService.html">Legal Service</a>
@@ -75,10 +68,9 @@
         </ul>
     </nav>
 
-    <!--BASE BANNER IMAGE-->
+    <!--BASE IMAGE-->
     <main>
-        <!-- THIS IS WHERE CONTENTS ADDED FOR THE OTHER PAGES INSIDE MAIN -->
-        <section id="imagedisplay">
+        <section class="imagedisplay">
             <div>
                 <h1 class="imagedisplay__title">
                     North Australian Aboriginal Justice Agency
@@ -86,10 +78,10 @@
             </div>
         </section>
 
-        <!-- PHONE NUMBER AT THE CENTER OF THE PAGE -->
         <section id="content__freecall">
             <div>
-                 <a href="tel:+1800898251" class="free-call"><h1 class="free-call">FREE CALL: 1800-898-251</h1></a>
+                <a href="tel:+1800898251" class="free-call" style="text-decoration: none; color: brown;"> <h1 class="free-call">FREE CALL: 1800 898 251</h1></a>
+<!--                <h1 class="free-call" href="tel:1800-898-251">FREE CALL: 1800 898 251</h1>-->
             </div>
         </section>
 
@@ -171,11 +163,20 @@
     </main>
 
 
+    
     <!--FOOTER-->
     <footer class="main-footer">
         <div class="flex-main-footer__sections">
             
-            <!-- FOOTER CALL US -->
+            
+            
+            <div class="flex-main-footer__section">
+                <section class="main-footer__section sec-one">
+                    <h2 class="main-footer__title">NAAJA</h2>
+                    <p class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil Law services
+                        to Aboriginal people and their families in the Northern Territory.</p>
+                </section>
+            </div>
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-two">
                     <h1 class="main-footer__title">Call Us</h1>
@@ -190,48 +191,39 @@
                 </section>
             </div>
             
-            <!-- FOOTER SOCIAL LINKS -->
             <div class="flex-main-footer__section">
                 <section class="main-footer__section sec-three">
                     <h1 class="main-footer__title">Connect</h1>
-                    <ul class="main-footer__lists sec-three__lists">
+                 <ul class="main-footer__lists sec-three__lists">
                         <li class="main-footer__list3 Blog">
-                            <a href="https://www.blogger.com/"
-target="_blank">Blog</a>
+                            <a href="https://www.blogger.com/" target="_blank">Blog</a>
                         </li>
                         <li class="main-footer__list3 Facebook">
-                            <a href="https://www.facebook.com/"
-target="_blank">Facebook</a>
+                            <a href="https://www.facebook.com/" target="_blank">Facebook</a>
                         </li>
                         <li class="main-footer__list3 Google">
-                            <a href="https://plus.google.com/"
-target="_blank">Google+</a>
+                            <a href="https://plus.google.com/" target="_blank">Google+</a>
                         </li>
                         <li class="main-footer__list3 RSS">
                             <a href="#">RSS</a>
                         </li>
                         <li class="main-footer__list3 Twitter">
-                            <a href="https://twitter.com/?lang=en"
-target="_blank">Twitter</a>
+                            <a href="https://twitter.com/?lang=en" target="_blank">Twitter</a>
                         </li>
                         <li class="main-footer__list3 YouTube">
-                            <a href="https://youtube.com/"
-target="_blank">YouTube</a>
+                            <a href="https://youtube.com/" target="_blank">YouTube</a>
                         </li>
-                    </ul
+                    </ul>
                 </section>
+                
+                
+                
+                
             </div>
-
-            <!-- FOOTER SITE DESCRIPTION -->
-            <div class="flex-main-footer__section">
-                <section class="main-footer__section sec-one">
-                    <h1 class="main-footer__title">North Australian Aboriginal Justice Agency</h1>
-                    <p class="main-footer__description">NAAJA is contracted by the Commonwealth Attorney General’s Department (AGD) to provide Criminal and Civil Law services
-                        to Aboriginal people and their families in the Northern Territory.</p>
-                </section>
-            </div>
+           
             
         </div>
+        
     </footer>
 
     <script src="Js/shared.js"></script>
