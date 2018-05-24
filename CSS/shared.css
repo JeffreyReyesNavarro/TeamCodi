@@ -285,6 +285,11 @@ body {
     width: 250px;
 }
 
+.mobile-nav__img img {
+    height: 80px;
+    width: 250px;
+}
+
 .mobile-nav__items {
   width: 90%;
   height: 100%;
